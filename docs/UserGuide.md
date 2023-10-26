@@ -61,16 +61,15 @@ If you have done everything correctly, you should see the TaskWise application o
 # Quick Start Guide
 [[Jump to Table of Content]](#Table-of-Content)
 
-> **ℹ️ Note:**
-> Have you installed Java 11 from the Installation Guide? If not, click [here](#installation-guide) to learn how you can install Java 11! It is crucial that you complete the installation process before continuing with this quick start guide.
+<div 
+  markdown="span" class="alert alert-info">:information_source: **Note:** Have you installed Java 11 from the Installation Guide? If not, click [here](#installation-guide) to learn how you can install Java 11! It is crucial that you complete the installation process before continuing with this quick start guide.
+</div>
 
 Picture this: it is Week 7 and midterms are here! However, you realise that CS2103T project deliverables are starting to pile up, and it is up to you as your group's Project Manager to distribute the work out and track these deliverables to ensure that the task is completed on time!
 
 Feeling overwhelmed? Don't fret, for TaskWise is here to the rescue!
 
 ## Start TaskWise
-
-[[Jump to Quick Start Guide]](#quick-start-guide)
 
 Start Taskwise by following the steps laid out in the [Installation Guide](#installation-guide).
 
@@ -79,8 +78,6 @@ If the app is successfully launched, you should be able to see the following win
 ![image](gui.png)
 
 ## Adding Your First Task
-
-[[Jump to Quick Start Guide]](#quick-start-guide)
 
 Firstly, let's begin by adding a new task to TaskWise! Tasks are completable objectives with or without deadlines. They form the basis for which you can begin your project management journey with TaskWise.
 
@@ -95,62 +92,6 @@ If successful, you should be able to see the following task entry on your window
 ![image](gui_2.png)
 
 Congratulations! You have just added your first task to track into TaskWise!
-
-## Mark Your First Task as Complete
-
-[[Jump to Quick Start Guide]](#quick-start-guide)
-
-After working on the task for a few days, you realise that your group has finally completed it. Now, it's time for you to mark this task as complete on TaskWise!
-
-To mark a task as complete, key in the command `mark \n 1` in the text box, before clicking on the "Enter" or "Return" key.
-
-![image](gui_2.png)
-
-This command allows you to mark an **incomplete** task as complete! In this case, `1` represents the task number of the task in your task list; since there is only one task in your task list, the value `1` represents the task which you have created previously.
-
-If the command is executed successfully, you should be able to see this on your window!
-
-![image](gui_3.png)
-
-You have just marked your first task as complete in TaskWise! Good job!
-
-## Mark Your First Task as Incomplete
-
-[[Jump to Quick Start Guide]](#quick-start-guide)
-
-All is well, until you realise that your forgetful teammate did not add their part of the documentation into the User Guide! Oh no! You need to now mark the task back to incomplete while the new changes to the documentation are being reviewed.
-
-To mark as task as incomplete, key in the command `unmark \n 1` in the text box, before clicking on the "Enter" or "Return" key.
-
-![image](gui_2.png)
-
-This command allows you to mark a **complete** task as incomplete! In this case, `1` represents the task number of the task in your task list; since there is only one task in your task list, the value `1` represents the task which you have created previously.
-
-If the command is executed successfully, you should be able to see this on your window!
-
-![image](gui_3.png)
-
-Amazing! You have just learnt how you can mark a previously completed task as incomplete!
-
-## Delete Your First Task
-
-[[Jump to Quick Start Guide]](#quick-start-guide)
-
-After a week of hard work, you and your team have decided that work on the User Guide is complete. You realise that there is no need to keep the task in TaskWise, and would like to remove it from your task list permanently.
-
-To delete a task, key in the command `delete \n 1` in the text box, before clicking on the "Enter" or "Return" key.
-
-![image](gui_2.png)
-
-This command allows you to delete any task in your task list! In this case, `1` represents the task number of the task in your task list; since there is only one task in your task list, the value `1` represents the task which you have created previously.
-
-If the command is executed successfully, you should be able to see this on your window!
-
-![image](gui_3.png)
-
-Rejoice! You have completed the Tutorial on TaskWise.
-
-You are officially a TaskWise Wizard, ready to use TaskWise to enhance your workflows and manage your project tasks in CS2103T!
 
 # Features
 
