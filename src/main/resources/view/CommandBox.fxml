@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.StackPane?>
 
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
 <StackPane styleClass="stack-pane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-  <TextField fx:id="commandTextField" onAction="#handleCommandEntered" promptText="Enter command here..."/>
+  <MFXTextField stylesheets="@CommandBox.css" fx:id="commandTextField" onAction="#handleCommandEntered" promptText="Enter command here..."
+                prefWidth="Infinity" animated="true" floatMode="DISABLED" style="-mfx-text-field-"/>
 </StackPane>
 
