@@ -67,6 +67,6 @@ public class Description implements Comparable<Description> {
 
     @Override
     public int compareTo(Description o) {
-        return this.fullDescription.compareTo(o.fullDescription);
+        return this.fullDescription.compareToIgnoreCase(o.fullDescription);
     }
 }
